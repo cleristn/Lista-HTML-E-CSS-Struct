@@ -1,11 +1,11 @@
 body{
-    background-color: rgb(6, 1, 19);
+    background: radial-gradient(circle at 50% 50%, #1d1e36, #0a0920);
     font-family: "Poppins", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: large;
     font-style: normal;
 }
-h1 {
+h2 {
     text-align: center;
     color: white;
     margin: 20px;
@@ -24,7 +24,7 @@ h1 {
     max-width: 400px;
     text-align: justify;
     margin: 20px;
-    background-color: rgb(47, 11, 94);
+    background: linear-gradient(135deg, #4a437e, #664c91);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(30, 20, 68, 0.2);
     padding: 20px;

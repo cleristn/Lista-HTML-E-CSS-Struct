@@ -1,7 +1,7 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background: radial-gradient(circle at 50% 50%, #1d1e36, #0a0920);
     font-family: "Poppins", serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: large;
     font-style: normal;
 }
