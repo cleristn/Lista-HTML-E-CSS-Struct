@@ -1,0 +1,61 @@
+body{
+    background: radial-gradient(circle at 50% 50%, #1d1e36, #0a0920);
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-size: large;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+        
+h1, h2 {
+    margin: 20px 0;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #2b2e44;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    margin: 20px;
+    color: #ffffff;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.about p {
+    color: #c5c5c5;
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+.contact {
+    padding: 40px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    color: #ffffff;
+    font-size: 18px;
+}
