@@ -294,11 +294,12 @@
 }
 
 @media screen and (max-width: 550px){
-    #navbar .newsletter_nav{
-        display: none;
-    }
+    
     #navbar .img_logo{
         width: 3rem;
+    }
+    #home .part-galeria > h2{
+        font-size: 20px;
     }
 }
 
@@ -322,5 +323,11 @@
     }
     #home .container > p{
         width: 100%;
+    }
+    #home .curiosidades-call > h2{
+        margin-top: 0;
+    }
+    #home .card{
+        width: calc(100% - 20px);
     }
 }
