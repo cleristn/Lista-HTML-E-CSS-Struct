@@ -277,9 +277,50 @@
     color: #f8c1ff;
 }
 
+#burguer{
+    cursor: pointer;
+}
 
 @media (max-width: 600px) {
     .footer-content {
         font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    #burguer{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 550px){
+    #navbar .newsletter_nav{
+        display: none;
+    }
+    #navbar .img_logo{
+        width: 3rem;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #navbar .links-4{
+        position: absolute;
+        text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: fit-content;
+        margin: 4rem auto auto auto;
+        background-color: #242d55;
+        width: fit-content;
+        border-radius: 5px;
+    }
+    #home .container{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #home .container > p{
+        width: 100%;
     }
 }

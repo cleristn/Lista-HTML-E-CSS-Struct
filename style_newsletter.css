@@ -67,3 +67,44 @@ body{
     transition: 0.3s all;
     color: white;   
 }
+@media screen and (max-width: 1024px) {
+    .container > p {
+        font-size: 28px;
+    }
+    .input_email {
+        font-size: 14px;
+        max-width: 250px;
+    }
+    .enviar_button {
+        font-size: 14px;
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container > p {
+        font-size: 22px;
+    }
+    .input_email {
+        font-size: 13px;
+        max-width: 200px;
+    }
+    .enviar_button {
+        font-size: 13px;
+        max-width: 200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container > p {
+        font-size: 18px;
+    }
+    .input_email {
+        font-size: 12px;
+        max-width: 180px;
+    }
+    .enviar_button {
+        font-size: 12px;
+        max-width: 180px;
+    }
+}
